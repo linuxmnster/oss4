@@ -1,0 +1,39 @@
+1. grep
+Purpose: Searches for patterns in a file or input text.
+Usage:
+grep "pattern" file.txt
+Example: grep "error" log.txt
+Searches for lines containing the word "error" in log.txt.
+-------------------------------------------------------------------
+2. cat
+Purpose: Concatenates and displays the contents of files.
+Usage:
+cat file.txt
+Example: cat file.txt
+Displays the contents of file.txt.
+-------------------------------------------------------------------
+3. head
+Purpose: Displays the first few lines of a file (default is 10 lines).
+
+Usage:
+head file.txt
+Example: head file.txt
+Displays the first 10 lines of file.txt.
+-------------------------------------------------------------------
+4. tail
+Purpose: Displays the last few lines of a file (default is 10 lines).
+
+Usage:
+tail file.txt
+Example: tail file.txt
+Displays the last 10 lines of file.txt.
+-------------------------------------------------------------------
+5. paste Command
+Purpose: Merges lines from multiple files horizontally (side by side). It is useful for combining files or columns of data into a single output.
+
+Basic Usage:
+paste file1.txt file2.txt
+
+Combining two files:
+paste file1.txt file2.txt
+---------------------------------------------------------------------

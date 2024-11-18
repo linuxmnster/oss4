@@ -1,0 +1,18 @@
+Message Passing:
+Definition: A method where processes communicate by sending and receiving messages.
+How it works: One process sends data (a message) to another, which can be asynchronous or synchronous.
+Pros:
+Simple and modular.
+No need for synchronization mechanisms, as the operating system handles message queues.
+Cons:
+Slower than shared memory due to the overhead of copying messages.
+
+
+Shared Memory:
+Definition: A method where multiple processes can access the same region of memory for communication.
+How it works: Processes map a shared region of memory into their address space, allowing them to read and write data directly.
+Pros:
+Faster than message passing because there is no need to copy data.
+Efficient for large amounts of data.
+Cons:
+Requires synchronization (e.g., semaphores, mutexes) to avoid conflicts (race conditions).
